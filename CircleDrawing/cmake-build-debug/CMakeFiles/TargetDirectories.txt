@@ -1,0 +1,3 @@
+D:/Projects/Graphics/CircleDrawing/cmake-build-debug/CMakeFiles/CircleDrawing.dir
+D:/Projects/Graphics/CircleDrawing/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/Graphics/CircleDrawing/cmake-build-debug/CMakeFiles/rebuild_cache.dir
