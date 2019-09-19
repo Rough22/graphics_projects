@@ -57,6 +57,7 @@ include CMakeFiles/Transformation.dir/progress.make
 include CMakeFiles/Transformation.dir/flags.make
 
 CMakeFiles/Transformation.dir/main.cpp.obj: CMakeFiles/Transformation.dir/flags.make
+CMakeFiles/Transformation.dir/main.cpp.obj: CMakeFiles/Transformation.dir/includes_CXX.rsp
 CMakeFiles/Transformation.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Projects\graphics_projects\Transformation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Transformation.dir/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Transformation.dir\main.cpp.obj -c D:\Projects\graphics_projects\Transformation\main.cpp
