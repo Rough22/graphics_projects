@@ -77,22 +77,22 @@ void points_clip() {
         x = points[i].x;
         y = points[i].y;
 
-        if (x < x1)
+        if (y > y3)
             points[i].value[0] = '1';
         else
             points[i].value[0] = '0';
 
-        if (x > x2)
+        if (y < y1)
             points[i].value[1] = '1';
         else
             points[i].value[1] = '0';
 
-        if (y < y1)
+        if (x > x2)
             points[i].value[2] = '1';
         else
             points[i].value[2] = '0';
 
-        if (y > y3)
+        if (x < x1)
             points[i].value[3] = '1';
         else
             points[i].value[3] = '0';
