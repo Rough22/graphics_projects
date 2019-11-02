@@ -1,5 +1,5 @@
 #include <GL/glut.h>
-#include <stdlib.h>
+#include <cstdlib>
 #include <iostream>
 
 using namespace std;
@@ -138,6 +138,7 @@ int main(int argc, char *argv[])
 
     cout << "The number of points: ";
     cin >> n;
+    cout << "Input vertices: " << endl;
 
     for (int i = 0; i < n; i++) {
         cin >> points[i].x;
