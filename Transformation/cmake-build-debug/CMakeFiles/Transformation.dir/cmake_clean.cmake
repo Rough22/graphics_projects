@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Transformation.dir/main.cpp.obj"
-  "Transformation.pdb"
   "Transformation.exe"
   "Transformation.exe.manifest"
+  "Transformation.pdb"
   "libTransformation.dll.a"
 )
 

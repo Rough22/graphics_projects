@@ -294,7 +294,7 @@ int main(int argc, char **argv) {
     glutInitWindowSize(600, 600);
     glutInitWindowPosition(450, 100);
     glutInitDisplayMode(GLUT_RGBA | GLUT_SINGLE);
-    glutCreateWindow("Drawing a polygon and color it");
+    glutCreateWindow("Drawing a polygon and Transform it");
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();

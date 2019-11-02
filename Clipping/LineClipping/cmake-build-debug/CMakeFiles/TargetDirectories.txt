@@ -1,0 +1,3 @@
+D:/Projects/graphics_projects/Clipping/LineClipping/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Projects/graphics_projects/Clipping/LineClipping/cmake-build-debug/CMakeFiles/LineClipping.dir
+D:/Projects/graphics_projects/Clipping/LineClipping/cmake-build-debug/CMakeFiles/edit_cache.dir

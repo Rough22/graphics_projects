@@ -1,0 +1,3 @@
+D:/Projects/graphics_projects/Clipping/PointClipping(Polygon_Window)/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Projects/graphics_projects/Clipping/PointClipping(Polygon_Window)/cmake-build-debug/CMakeFiles/PointClipping_Polygon_Window_.dir
+D:/Projects/graphics_projects/Clipping/PointClipping(Polygon_Window)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
