@@ -51,6 +51,7 @@ void dda(double x1, double y1, double x2, double y2) {
 }
 
 void draw_polygon() {
+
     int x1, y1, x2, y2;
 
     for (int i = 0; i < n; i++) {
@@ -78,18 +79,21 @@ void draw_polygon() {
 void clip_points() {
 
     for (int i = 0; i < m; i++) {
+
         int x = points[i].x;
         int y = points[i].y;
         int check = 0;
 
         for (int j = 0; j < n; j++) {
+
             int x1, y1, x2, y2;
+
             if (j == n - 1) {
                 x1 = vertices[j].first;
                 y1 = vertices[j].second;
 
                 x2 = vertices[0].first;
-                y2 = vertices[j].second;
+                y2 = vertices[0].second;
             }
             else {
                 x1 = vertices[j].first;
@@ -101,9 +105,7 @@ void clip_points() {
 
             check = ((x2 - x1) * (y - y1)) - ((y2 - y1) * (x - x1));
 
-
             if (check < 0) {
-                cout << check << endl;
 
                 glPointSize(2);
                 glColor3f(1.0, 0.0, 0.0);
@@ -114,7 +116,6 @@ void clip_points() {
             }
         }
         if (check >= 0) {
-            cout << check << endl;
 
             glPointSize(2);
             glColor3f(0.0, 1.0, 0.0);
@@ -129,6 +130,7 @@ void clip_points() {
 }
 
 void display() {
+
     glPointSize(1);
     glColor3f(1.0, 1.0, 0.0);
     dda(-500, 0, 500, 0);
