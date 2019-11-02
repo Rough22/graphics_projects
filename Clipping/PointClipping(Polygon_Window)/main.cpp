@@ -158,11 +158,10 @@ int main(int argc, char* argv[]) {
 
     cout << "Input number of points:" << endl;
     cin >> m;
-
     cout << "Input points:" << endl;
-    for (int i = 0; i < m; i++) {
+
+    for (int i = 0; i < m; i++)
         cin >> points[i].x >> points[i].y;
-    }
 
     glutInit(&argc, argv);
     glutInitWindowSize(600, 600);
