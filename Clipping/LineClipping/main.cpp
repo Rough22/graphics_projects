@@ -95,6 +95,7 @@ string points_clip(int x, int y) {
 }
 
 bool bitwise_and(string first_point, string second_point) {
+
     string result = "9999";
     for (int i = 0; i < 4; i++) {
         if (first_point[i] == '1' && second_point[i] == '1')
@@ -295,8 +296,8 @@ int main(int argc, char *argv[]) {
 
     cout << "The number of edges: ";
     cin >> n;
-
     cout << "Input vertices: " << endl;
+
     for (int i = 0; i < n; i++) {
         cin >> edges[i].x1;
         cin >> edges[i].y1;
